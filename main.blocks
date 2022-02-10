@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="$FAI*bZF$s?Ide.nlsOr" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="3GJ:L/8mBL[a8R%=jNB:"><value name="color"><shadow type="colorindexpicker" id="nb#nPo]$ugyDAj!vL-se"><field name="index">9</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="26[C%-!OIX_aXpsME:oa">Player</variable><variable type="KIND_SpriteKind" id="d#g(hPXe}8{15=H5Jvmp">Projectile</variable><variable type="KIND_SpriteKind" id="m|GL3j{STuBSG().tC%/">Food</variable><variable type="KIND_SpriteKind" id="gvul;EP=hu%{L::]J06J">Enemy</variable><variable id="k|^;=iP!%SYK=NPG+8#6">mySprite</variable><variable id="s})W}{:J!j$#cPOEI+{J">item</variable></variables><block type="pxt-on-start" id="$FAI*bZF$s?Ide.nlsOr" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="3GJ:L/8mBL[a8R%=jNB:"><value name="color"><shadow type="colorindexpicker" id="nb#nPo]$ugyDAj!vL-se"><field name="index">9</field></shadow></value><next><block type="variables_set" id="?)4~!wx{MSikRwI!1Pt}"><field name="VAR" id="k|^;=iP!%SYK=NPG+8#6">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="JgM-4%bFb8zL?s7#L~SM"><value name="img"><shadow type="screen_image_picker" id="j1=HmT@?DIwa-F#|@EpR"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . b 5 5 b . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 b . 
+b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"j1=HmT@?DIwa-F#|@EpR"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="eiAl3.OzC?g`zBREEe?:"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
